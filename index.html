@@ -8,6 +8,20 @@
 </head>
 <body>
     <h1>Test</h1>
-
+    <input type="text" class="text" placeholder="Escriba algo"  >
+    <input  type="button" 
+            value="Enviar"
+            id="btn-submit"
+            onclick="alert_js()">
+   
+    <script> 
+        a = document.querySelector('.text').value;
+        console.log(a)
+        
+        function alert_js(a) { 
+            alert(a)
+            console.log(a)
+         }
+    </script>
 </body>
 </html>
